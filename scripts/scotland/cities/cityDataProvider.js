@@ -21,6 +21,18 @@ const cityArray = [
         image:"images/city-kirkwall.jpg",
         population:"7,190",
         description:"Kirkwall, royal burgh (town), seaport, and chief town of the Orkney Islands, Scotland, off the northern tip of the Scottish mainland. It was designated a royal burgh in 1486. Early Norse influence persisted as late as the building of the 12th-century red sandstone St. Magnus Cathedral, a dominant feature of the present town.",
-        link:""
+        link:"https://www.britannica.com/place/Kirkwall"
+    },
+    {
+        id:4,
+        name:"Aberdeen",
+        image:"images/city-aberdeen.jpg",
+        population:"222,793",
+        description:"Aberdeen, city and historic royal burgh (town) astride the Rivers Dee and Don on Scotland’s North Sea coast. Aberdeen is a busy seaport, the British centre of the North Sea oil industry, and the commercial capital of northeastern Scotland. Aberdeen’s primary industries were once fishing, textiles, shipbuilding, and papermaking. Today its economy is focused on the oil industry, though it has grown more diversified to include electronics design and renewable energy resources.",
+        link:"https://www.britannica.com/place/Aberdeen-Scotland"
     }
 ]
+
+export const getCities = () => {
+    return cityArray
+}
