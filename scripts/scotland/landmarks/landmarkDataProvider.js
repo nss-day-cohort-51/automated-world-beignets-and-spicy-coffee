@@ -1,6 +1,5 @@
 const landmarkArray = [
     {
-        id:1,
         name:"Isle of Skye",
         image:"images/land-isleofskye.jpg",
         dateCreated:"Settled in 1st century BCE",
@@ -8,7 +7,6 @@ const landmarkArray = [
         link:"https://www.britannica.com/place/Skye"
     },
     {
-        id:2,
         name:"Loch Ness",
         image:"images/land-lochness.jpg",
         dateCreated:"Formally settled in 18th century",
@@ -16,7 +14,6 @@ const landmarkArray = [
         link:"https://www.britannica.com/place/Loch-Ness-lake-Scotland-United-Kingdom"
     },
     {
-        id:3,
         name:"Highlands",
         image:"images/land-highlands.jpg",
         dateCreated:"Prehistoric settlement",
@@ -24,7 +21,6 @@ const landmarkArray = [
         link:"https://www.britannica.com/place/Highlands-region-Scotland"
     },
     {
-        id:4,
         name:"St. Andrews Cathedral",
         image:"images/land-standrews.jfif",
         dateCreated:"Foundation set between 1127 and 1144",
