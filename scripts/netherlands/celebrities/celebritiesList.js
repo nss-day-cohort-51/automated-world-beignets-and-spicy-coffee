@@ -1,5 +1,5 @@
-import { getCelebrities } from "./celebrities/celebritiesDataProvider.js";
-import { celebrities } from "./celebrities/celebritiesList.js";
+import { getCelebrities } from "./celebritiesDataProvider.js";
+import { celebrities } from "./celebrities.js";
 
 export const celebritiesList = () => {
 

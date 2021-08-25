@@ -3,8 +3,8 @@ export const cities = (citiesObj) => {
 				<div><img class="cities-image" src="${citiesObj.image}" /></div>
 				<h3 class="cities-name">${citiesObj.name}</h3>
 				<ul>
-					<li class="cities-details"> Occupation: ${citiesObj.occupation}</li>
-					<li class="cities-details">Description: ${citiesObj.description} </li>
+					<li class="cities-details"> Population: ${citiesObj.population}</li>
+					<li class="cities-details"> ${citiesObj.description} </li>
 					<li class="cities-details">Find Out More: ${citiesObj.link}</li>
 					
 				</ul>

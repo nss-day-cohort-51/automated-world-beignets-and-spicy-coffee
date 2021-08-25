@@ -1,5 +1,5 @@
-import { getCities } from "./cities/cityDataProvider.js";
-import { cities } from "./cities/cities.js";
+import { getCities } from "./cityDataProvider.js";
+import { cities } from "./cities.js";
 
 export const citiesList = () => {
 
