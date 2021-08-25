@@ -1,6 +1,5 @@
 const celebrityArray = [
     {
-        id:1,
         image:"images/celeb-connery.jpg",
         name:"Sean Connery",
         occupation:"actor",
@@ -8,7 +7,6 @@ const celebrityArray = [
         link:"https://www.thefamouspeople.com/profiles/sir-thomas-sean-connery-2823.php"
     },
     {
-        id:2,
         image:"images/celeb-ramsay.jpg",
         name:"Gordon Ramsay",
         occupation:"professional chef",
@@ -16,7 +14,6 @@ const celebrityArray = [
         link:"https://www.thefamouspeople.com/profiles/gordon-james-ramsay-1534.php"
     },
     {
-        id:3,
         image:"images/celeb-bell.jpg",
         name:"Alexander Graham Bell",
         occupation:"famous inventor",
@@ -24,7 +21,6 @@ const celebrityArray = [
         link:"https://www.thefamouspeople.com/profiles/alexander-graham-bell-650.php"
     },
     {
-        id:4,
         image:"images/celeb-doyle.jpg",
         name:"Sir Arthur Conan Doyle",
         occupation:"author & physician",

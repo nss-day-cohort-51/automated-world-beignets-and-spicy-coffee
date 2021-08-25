@@ -1,6 +1,5 @@
 const cityArray = [
     {
-        id:1,
         name:"Glasgow",
         image:"images/city-glasgow.jpg",
         population:"593,245",
@@ -8,7 +7,6 @@ const cityArray = [
         link:"https://www.britannica.com/place/Glasgow-Scotland"
     },
     {
-        id:2,
         name:"Edinburgh",
         image:"images/city-edinburgh.jpg",
         population:"482,640",
@@ -16,7 +14,6 @@ const cityArray = [
         link:"https://www.britannica.com/place/Edinburgh-Scotland"
     },
     {
-        id:3,
         name:"Kirkwall",
         image:"images/city-kirkwall.jpg",
         population:"7,190",
@@ -24,7 +21,6 @@ const cityArray = [
         link:"https://www.britannica.com/place/Kirkwall"
     },
     {
-        id:4,
         name:"Aberdeen",
         image:"images/city-aberdeen.jpg",
         population:"222,793",
