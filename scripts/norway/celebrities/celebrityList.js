@@ -6,9 +6,10 @@ export const CelebList = () => {
     const contentElement = document.querySelector(".celebList");
     const allCeleb = getCeleb();
 
-    let celebHTMLRepresentation = "";
+    let celebHTML = "";
+
     for ( const oneCeleb of allCeleb) {
-        celebHTMLRepresentation += Celeb(oneCeleb);
+        celebHTML += Celeb(oneCeleb);
     }
-    contentElement.innerHTML += celebHTMLRepresentation
-}
+  contentElement.innerHTML += celebHTML
+};

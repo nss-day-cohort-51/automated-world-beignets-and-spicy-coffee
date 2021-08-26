@@ -4,7 +4,7 @@ export const Landmark = (landObj) => {
 				<h3 class="landmark-name">${landObj.name}</h3>
 				<ul>
 					<li class="landmark-details">Occupation:Year Built: ${landObj.year}</li>
-					<li class="landmark-details">External Link: ${landObj.link}<li>
-				</ul>
-        	</article>`
-}
+                    </ul>
+                    <a href="${landObj.link}" target="_blank">More Info</a>
+                </article>`;
+    };

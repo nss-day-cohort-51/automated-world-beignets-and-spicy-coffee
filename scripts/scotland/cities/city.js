@@ -6,6 +6,6 @@ export const cityCard = (cityObj) => {
                     <li class="city-details">Population: ${cityObj.population}</li>
                     <li class="city-details">${cityObj.description}</li>
                 </ul>
-                <a href="${cityObj.link}" target="_blank">More Info</a>
+                <a href="${cityObj.link}" target="_blank">External Link</a>
             </article>`;
 };

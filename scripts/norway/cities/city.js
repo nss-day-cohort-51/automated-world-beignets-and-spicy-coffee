@@ -4,7 +4,7 @@ export const City = (cityObj) => {
 				<h3 class="city-name">${cityObj.name}</h3>
 				<ul>
 					<li class="city-details">Population: ${cityObj.population}</li>
-					<li class="city-details">External Link: ${cityObj.link}<li>
-				</ul>
-        	</article>`
-}
+                    </ul>
+                    <a href="${cityObj.link}" target="_blank">More Info</a>
+                </article>`;
+    };
