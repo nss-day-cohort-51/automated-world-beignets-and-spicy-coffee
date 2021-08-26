@@ -85,35 +85,37 @@ a:active {
 }
 
 .fijiTitle{
+  font-family: "Raleway";
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: #52616b;
+  text-align: center;
+  margin-top: 8vw;
+  margin-bottom: 1vw;
+  font-size: 36pt;
 }
 .fijiTitle img{
   padding-top: 5px;
 }
 .fijiWelcome{
+  color: #001b36;
+  text-align: center;
+  font-size: 20pt;
+  font-style: italic;
   display: flex;
   justify-content: center;
 }
 .fijiHiddenDepth{
+  color: #58c2f1;
+  text-shadow: 2px 2px 0px #0084f8;
+  text-align: center;
+  font-size: 29pt;
+  margin-bottom: 1vw;
   display: flex;
   justify-content: center;
 }
-
-/* .fijiFlagWrapper{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-/* .fijiFlagWrapper img{
-  width: 10vw;
-  padding: 0;
-  margin: 0;
-} */
-
 
 .fijiElements{
   display: flex;
@@ -207,3 +209,21 @@ a:active {
   box-shadow: 3px 3px 4px #47c2b1;
   object-fit: cover;
 }
+
+
+
+
+
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: #001b36;
+  text-align: center;
+}
+
+
+
