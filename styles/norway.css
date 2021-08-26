@@ -1,0 +1,277 @@
+html {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.logo_nav_wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 15vw;
+  background-image: url("/images/norwayBanner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  background-color: white;
+  width: 18vw;
+  height: 18vw;
+  flex-grow: 1;
+}
+
+.logo_nav_wrapper ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  list-style-type: none;
+}
+
+.nav_container {
+  width: 100%;
+  height: 15vw;
+  background-image: url("/images/planebanner.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 3;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #001b36;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #52616b;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.boldLink {
+  width: 100px;
+  height: 20px;
+  background: rgb(54, 23, 228);
+  border: solid white 2px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.title_flag_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_flag_wrapper img {
+  width: 15vw;
+  padding: 0;
+  margin: 0;
+}
+
+h4 {
+  color: #52616b;
+  text-align: center;
+  margin-top: 8vw;
+  margin-bottom: 1vw;
+  font-size: 36pt;
+}
+
+p {
+  color: #001b36;
+  text-align: center;
+  font-size: 20pt;
+  font-style: italic;
+}
+
+h5 {
+  color: #58c2f1;
+  text-shadow: 2px 2px 0px #0084f8;
+  text-align: center;
+  font-size: 29pt;
+  margin-bottom: 1vw;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: #001b36;
+  text-align: center;
+}
+
+.norway_elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.city_container {
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(71, 194, 177, 0.5);
+}
+
+.city-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  contain: content;
+  height: 40vw;
+}
+
+.city-card ul {
+  list-style-type: none;
+  color: #001b36;
+  padding-right: 1vw;
+}
+
+.city-image {
+  width: 22vw;
+  height: 16vw;
+  border-bottom: 1px solid #0084f8;
+  border-right: 1px solid #0084f8;
+  border-radius: 2em;
+  box-shadow: 3px 3px 4px #47c2b1;
+  object-fit: cover;
+}
+
+.landmark_container {
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 133, 118, 0.5);
+}
+
+.landmark-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  contain: content;
+  height: 40vw;
+}
+
+.landmark-card ul {
+  list-style-type: none;
+  color: #001b36;
+  padding-right: 1vw;
+}
+
+.landmark-image {
+  width: 22vw;
+  height: 16vw;
+  border-bottom: 1px solid #0084f8;
+  border-right: 1px solid #0084f8;
+  border-radius: 2em;
+  box-shadow: 3px 3px 4px #47c2b1;
+  object-fit: cover;
+}
+
+.celeb_container {
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 132, 248, 0.5);
+}
+
+.celeb-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  contain: content;
+  height: 40vw;
+}
+
+.celeb-card ul {
+  list-style-type: none;
+  color: #001b36;
+  padding-right: 1vw;
+}
+
+.celeb-image {
+  width: 22vw;
+  height: 16vw;
+  border-bottom: 1px solid #0084f8;
+  border-right: 1px solid #0084f8;
+  border-radius: 2em;
+  box-shadow: 3px 3px 4px #47c2b1;
+  object-fit: cover;
+}
+
+ .landmark_container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 133, 118, 0.5);
+}
+
+.landmark-card {
+  contain: content;
+}
+
+.landmark-image {
+  width: 22vw;
+  height: 16vw;
+  border-bottom: 1px solid #0084f8;
+  border-right: 1px solid #0084f8;
+  border-radius: 2em;
+  box-shadow: 3px 3px 4px #47c2b1;
+  object-fit: cover;
+}
+
+.celebrity_container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 132, 248, 0.5);
+}
+
+.celebrity-card a {
+  margin-left: 2vw;
+}
+
+.celebrity_card {
+  contain: content;
+}
+
+.celebrity-image {
+  width: 22vw;
+  height: 16vw;
+  border-bottom: 1px solid #0084f8;
+  border-right: 1px solid #0084f8;
+  border-radius: 2em;
+  box-shadow: 3px 3px 4px #47c2b1;
+  object-fit: cover;
+} */
+
+footer {
+  text-align: center;
+  margin-top: 10vw;
+}

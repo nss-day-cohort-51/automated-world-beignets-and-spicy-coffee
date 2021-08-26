@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/norway.css" />
     <title>Prestige World Travels</title>
   </head>
   <body>
@@ -13,29 +19,34 @@
         <a href="index.html">
           <img class="logo" src="/images/prestigelogo.png" alt="logo" />
         </a>
-        <nav>
+        <nav class="nav_container">
           <ul>
             <li><a href="netherlands.html">The Netherlands</a></li>
             <li><a href="fiji.html">Fiji</a></li>
-            <li><a href="norway.html">Norway</a></li>
+            <li class="boldLink"><a href="scotland.html">Norway</a></li>
             <li><a href="scotland.html">Scotland</a></li>
           </ul>
         </nav>
       </div>
-      <h1>NORWAY</h1>
+      <div class="title_flag_wrapper">
+        <h4>Norway</h4>
+        <img src="images/Flag-Norway.jpg" alt="norway flag" />
+        <p>
+          Stunning fjords. Small, cosy cities. Magical northern lights …and a lot of space! Experience Norway.
+        </p>
+      </div>
     </header>
     <main>
-      <h2>Cool stuff from Norway</h2>
-      <section class="scotland_elements">
+      <section class="norway_elements">
         <div class="city_container">
-          <h2>Tourist Cities</h2>
+          <h2>Cities</h2>
           <section class="cityList"></section>
         </div>
         <div class="landmark_container">
           <h2>Landmarks</h2>
           <section class="landmarkList"></section>
         </div>
-        <div class="celebrity_container">
+        <div class="celeb_container">
           <h2>Famous Citizens</h2>
           <section class="celebList"></section>
         </div>
@@ -43,6 +54,6 @@
     </main>
     <footer>&copy; 2021 Prestige World Travels</footer>
 
-<script type="module" src="scripts/norway/norway.js"></script>
+    <script type="module" src="/scripts/norway/norway.js"></script>
   </body>
 </html>
