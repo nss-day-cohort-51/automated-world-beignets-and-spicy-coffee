@@ -6,6 +6,6 @@ export const celebrityCard = (celebrityObj) => {
                     <li class="celebrity-details">${celebrityObj.occupation}</li>
                     <li class="celebrity-details">${celebrityObj.description}</li>
                 </ul>
-                <a href="${celebrityObj.link}" target="_blank">More Info</a>
+                <a href="${celebrityObj.link}" target="_blank">External Link</a>
             </article>`;
 };
