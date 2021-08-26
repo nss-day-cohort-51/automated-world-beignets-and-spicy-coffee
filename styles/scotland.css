@@ -68,3 +68,11 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+h4 {
+  color: #52616b;
+  text-align: center;
+  margin-top: 8vw;
+  margin-bottom: 8vw;
+  font-size: 36pt;
+}
