@@ -5,7 +5,7 @@ export const celebrities = (celebObj) => {
 				<ul>
 					<li class="celeb-details"> Occupation: ${celebObj.occupation}</li>
 					<li class="celeb-details"> ${celebObj.description} </li>
-					<li class="celeb-details">Find Out More: ${celebObj.link}</li>
+					<li><a href="${celebObj.link}" target="_blank"> Find out more </a></li>
 					
 				</ul>
         	</article>`

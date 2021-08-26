@@ -5,8 +5,8 @@ export const cities = (citiesObj) => {
 				<ul>
 					<li class="cities-details"> Population: ${citiesObj.population}</li>
 					<li class="cities-details"> ${citiesObj.description} </li>
-					<li class="cities-details">Find Out More: ${citiesObj.link}</li>
-					
+					<li><a href="${citiesObj.link}" target="_blank"> More Info </a></li>
 				</ul>
+				
         	</article>`
 }

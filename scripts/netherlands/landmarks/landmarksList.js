@@ -8,7 +8,7 @@ export const landmarksList = () => {
 
 	let landmarksHTMLRepresentation = "";
 	for (const landmark of nethLandmarks) {
-		landmarksHTMLRepresentation += landmark(landmarks);
+		landmarksHTMLRepresentation += landmarks(landmark);
 	}
 	
     contentElement.innerHTML += `${landmarksHTMLRepresentation}`
