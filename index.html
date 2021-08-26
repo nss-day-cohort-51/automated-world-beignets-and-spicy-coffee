@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/main.css" />
     <title>Prestige World Travels</title>
   </head>
@@ -12,7 +18,7 @@
       <a href="index.html">
         <img class="logo" src="/images/prestigelogo.png" alt="logo" />
       </a>
-      <nav>
+      <nav class="nav_container">
         <ul>
           <li>
             <a href="netherlands.html">The Netherlands</a>
@@ -24,27 +30,47 @@
       </nav>
     </header>
     <main>
-      <h2>Popular Travel Destinations</h2>
+      <h4>Popular Travel Destinations</h4>
       <div class="country_container">
-        <section class="img_container"></section>
-        <a href="netherlands.html">
-          <img src="/images/Netherlands.jpg" alt="Netherlands Photo" />
-          The Netherlands</a
-        >
-        <section class="img_container"></section>
-        <a href="fiji.html"
-          ><img src="/images/RoomsOnTheWater.jpg" alt="Fiji Photo" /> Fiji</a
-        >
-        <section class="img_container"></section>
-        <a href="norway.html"
-          ><img src="/images/norway-mountains2.jpg" alt="Norway Photo" />
-          Norway</a
-        >
-        <section class="img_container"></section>
-        <a href="scotland.html">
-          <img src="/images/scotland.jpg" alt="Scotland Photo" />
-          Scotland</a
-        >
+        <section class="country_wrapper">
+          <div class="country_title">The Netherlands</div>
+          <a href="netherlands.html">
+            <img
+              class="country_img"
+              src="/images/Netherlands.jpg"
+              alt="Netherlands Photo"
+            />
+          </a>
+        </section>
+        <section class="country_wrapper">
+          <div class="country_title">Fiji</div>
+          <a href="fiji.html"
+            ><img
+              class="country_img"
+              src="/images/RoomsOnTheWater.jpg"
+              alt="Fiji Photo"
+            />
+          </a>
+        </section>
+        <section class="country_wrapper">
+          <div class="country_title">Norway</div>
+          <a href="norway.html"
+            ><img
+              class="country_img"
+              src="/images/norway-mountains2.jpg"
+              alt="Norway Photo"
+            />
+          </a>
+        </section>
+        <section class="country_wrapper">
+          <div class="country_title">Scotland</div>
+          <a href="scotland.html"
+            ><img
+              class="country_img"
+              src="/images/scotland.jpg"
+              alt="Scotland Photo"
+          /></a>
+        </section>
       </div>
     </main>
     <footer>&copy; 2021 Prestige World Travels</footer>
