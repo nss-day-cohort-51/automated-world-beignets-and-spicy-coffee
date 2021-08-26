@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/fiji.css" />
-    <title>Prestige World Travels</title>
-  </head>
-  <body>
-    <header>
-      <div class="logo_nav_wrapper">
-        <a href="index.html">
-          <img class="logo" src="/images/prestigelogo.png" alt="logo" />
-        </a>
-        <nav>
-          <ul>
-            <li><a href="netherlands.html">The Netherlands</a></li>
-            <li><a href="fiji.html">Fiji</a></li>
-            <li><a href="norway.html">Norway</a></li>
-            <li><a href="scotland.html">Scotland</a></li>
-          </ul>
-        </nav>
-      </div>
-      <h1>Fiji</h1>
-      <h3>
-        "Get ready to experience some of the most breathtaking underwater views in the world. Dive in and get amongst it."
-      </h3>
-    </header>
-    <main>
-      <h2>Explore Fiji's Hidden Depths</h2>
-      <section class="fiji_elements">
-        <div class="city_container">
-          <h2>Popular Cities</h2>
-          <section class="cityList"></section>
-        </div>
-        <div class="landmark_container">
-          <h2>Significant Landmarks</h2>
-          <section class="landmarkList"></section>
-        </div>
-        <div class="celebrity_container">
-          <h2>Celebrated Citizens</h2>
-          <section class="celebrityList"></section>
-        </div>
-      </section>
-    </main>
-    <footer>&copy; 2021 Prestige World Travels</footer>
 
-    <script type="module" src="/scripts/fiji/fiji.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/fiji.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+  <title>Prestige World Travels</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo_nav_wrapper">
+      <a href="index.html">
+        <img class="logo" src="/images/prestigelogo.png" alt="logo" />
+      </a>
+      <nav class="nav_container">
+        <ul>
+          <li><a href="netherlands.html">The Netherlands</a></li>
+          <li class="boldLink"><a href="fiji.html">Fiji</a></li>
+          <li><a href="norway.html">Norway</a></li>
+          <li><a href="scotland.html">Scotland</a></li>
+        </ul>
+      </nav>
+    </div class="fijiFlagWrapper">
+    <h1 class="fijiTitle">Fiji<img src="/images/fijiFlag.png" alt="Fiji" width="533" height="300"></h1>
+    
+    <h3 class="fijiWelcome">
+      "Get ready to experience some of the most breathtaking underwater views in the world. Dive in and get amongst it."
+    </h3>
+  </header>
+  <main>
+    <h2 class="fijiHiddenDepth">Explore Fiji's Hidden Depths</h2>
+    <section class="fijiElements">
+      <div class="cityContainer">
+        <h2>Popular Cities</h2>
+        <section class="cityList"></section>
+      </div>
+      <div class="landmarkContainer">
+        <h2>Significant Landmarks</h2>
+        <section class="landmarkList"></section>
+      </div>
+      <div class="celebrityContainer">
+        <h2>Celebrated Citizens</h2>
+        <section class="celebrityList"></section>
+      </div>
+    </section>
+  </main>
+  <footer>&copy; 2021 Prestige World Travels</footer>
+
+  <script type="module" src="/scripts/fiji/fiji.js"></script>
+</body>
+
 </html>

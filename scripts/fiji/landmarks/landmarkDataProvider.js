@@ -20,7 +20,7 @@ const fijiLandmarks = [
         name: "Sri Siva Subramaniya Temple",
         year: "1986",
         description: "Although this is a new building, the old temple was in use prior to 1926.",
-        link: "https://en.wikipedia.org/wiki/Sri_Siva_Subramaniya_temple"
+        link: "https://en.wikipedia.org/wiki/Sri_Siva_Subramaniya_temple" 
     },
 
     {
