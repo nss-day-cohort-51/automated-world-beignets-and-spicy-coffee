@@ -1,5 +1,6 @@
 const fijiCelebrities = [
     {
+        image: "jimmySnuka.jpg",
         name: "Jimmy 'Superfly' Snuka",
         occupation: "Professional Wrestler",
         description: "Professional career spanned from 1968 to mid-2015.",
@@ -7,6 +8,7 @@ const fijiCelebrities = [
     },
 
     {
+        image: "loteTuqiri.jpg",
         name: "Lote Tuqiri",
         occupation: "Professional Rugby Player",
         description: "Professional career spanned from 1999 to 2014.",
@@ -14,12 +16,15 @@ const fijiCelebrities = [
     },
 
     {
+        image: "elliaGreen.jpg",
         name: "Ellia Green",
         occupation: "Professional Rugby Player",
         description: "2016 Olympic Gold medal winner in Rio de Janeiro for team Australia.",
         link: "https://en.wikipedia.org/wiki/Ellia_Green"
     },
+
     {
+        image: "mikaVukona.jpg",
         name: "Mika Vukona",
         occupation: "Professional Basketball Player",
         description: "Professional career began in 2000 and is still going strong today.",

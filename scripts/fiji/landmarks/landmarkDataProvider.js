@@ -1,5 +1,6 @@
 const fijiLandmarks = [
     {
+        image: "civaPearlFarm1.jpg",
         name: "Civa Pearl Farm",
         year: "2006",
         description: "The pearl farm is situated on the windward side of the Taveuni and is spread over 55 Hectares.",
@@ -7,6 +8,7 @@ const fijiLandmarks = [
     },
     
     {
+        image: "sacredHeart1.jpg",
         name: "Sacred Heart Cathedral",
         year: "1902",
         description: "The building is covered with ornaments and stained glass and has a crypt in the basement.",
@@ -14,6 +16,7 @@ const fijiLandmarks = [
     },
 
     {
+        image: "subramaniyaTemple1.jpg",
         name: "Sri Siva Subramaniya Temple",
         year: "1986",
         description: "Although this is a new building, the old temple was in use prior to 1926.",
@@ -21,6 +24,7 @@ const fijiLandmarks = [
     },
 
     {
+        image: "nausoriHighlands1.jpg",
         name: "Nausori Highlands",
         year: "Few Billion years old",
         description: "The Nausori Highlands were originally considered a hideout for cannibals.",

@@ -1,8 +1,7 @@
-import { getCelebrities } from "./celebrities/celebritiesDataProvider"
-import { getLandmarks } from "./landmarks/landmarkDataProvider"
-import { getCities } from "./cities/cityDataProvider"
+import { celebrityList } from "./celebrities/celebritiesList.js";
+import { cityList } from "./cities/cityList.js";
+import { landmarkList } from "./landmarks/landmarkList.js";
 
-
-const celebrity = getCelebrities();
-const landmark = getLandmarks();
-const city = getCities();
+celebrityList();
+landmarkList();
+cityList();
