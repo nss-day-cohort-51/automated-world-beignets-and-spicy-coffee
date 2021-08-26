@@ -6,6 +6,6 @@ export const landmarkCard = (landmarkObj) => {
                     <li class="landmark-details">${landmarkObj.dateCreated}</li>
                     <li class="landmark-details">${landmarkObj.description}</li>
                 </ul>
-                <a href="${landmarkObj.link}" target="_blank">More Info</a>
+                <a href="${landmarkObj.link}" target="_blank">External Link</a>
             </article>`;
 };
