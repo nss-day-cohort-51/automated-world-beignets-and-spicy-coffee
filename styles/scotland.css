@@ -49,36 +49,41 @@ body {
 
 a:link {
   color: white;
+  text-shadow: 2px 2px 0px #001b36;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
   color: white;
+  text-shadow: 2px 2px 0px #001b36;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: #001b36;
+  color: white;
+  text-shadow: 0px 2px 0px #47c2b1;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:active {
   color: #52616b;
+  text-shadow: 2px 2px 0px #001b36;
   background-color: transparent;
   text-decoration: underline;
 }
 
 .boldLink {
-  width: 100px;
-  height: 20px;
+  width: 120px;
+  height: 25px;
   background: rgb(54, 23, 228);
   border: solid white 2px;
   border-radius: 10px;
   color: white;
   text-align: center;
+  align-items: center;
 }
 
 .title_flag_wrapper {
@@ -151,6 +156,7 @@ h3 {
   list-style-type: none;
   color: #001b36;
   padding-right: 1vw;
+  font-size: 14pt;
 }
 
 .city-image {
